@@ -2,8 +2,8 @@ import sys
 
 if len(sys.argv) == 3:
     print("User provided values")
-    weight = sys.argv[1]
-    height = sys.argv[2]
+    weight = float(sys.argv[1])
+    height = float(sys.argv[2)
 else:
     print("No input given - using default values")
     weight = 50
